@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Julio Catan - 2da Entrega Final</title>
+  </head>
+  <body>
+    <!-- Acá comienza la barra de menú -->
+    <nav class="navbar navbar-expand-lg lh-lg navbar-light bg-light fixed-top bg-opacity-75">
+      <div class="container-fluid">
+        <a class="navbar-brand myLogo col-xl-1" href="index.html"></a>
+        <div class="col-xl-2"></div>
+        <div class="collapse navbar-collapse col-xl-6 p-2 mb-2 fs-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active link-primary" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="paginas/productos.html" class="nav-link " aria-current="page" href="#">Productos</a>
+            </li>
+<!--             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="paginas/productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Tortas</a></li>
+                <li><a class="dropdown-item" href="#">Budines</a></li>
+                <li><a class="dropdown-item" href="#">Cakes</a></li>
+                <li><a class="dropdown-item" href="#">Patiserì</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Especiales</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a href="paginas/contacto.html" class="nav-link " aria-current="page" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a href="paginas/quienes.html" class="nav-link " aria-current="page" href="#">Quienes Somos</a>
+            </li>
+             <li class="nav-item">
+              <a href="paginas/como_comprar.html" class="nav-link " aria-current="page" href="#">Take Away</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 p-1">
+        <!-- Redes -->   
+        </div>
+      </div>
+    </nav>
+    <!-- Imagen principal  -->
+    <div class="row p-5 mt-5 first">
+      <div class="col-xl-9 col-md-12">
+        <img src="assets/principalD.jpg" class="rounded mx-auto d-block" alt="imagenPrincipl">
+      </div>
+      <div class="col-xl-3 col-md-12">
+        <p class="fs-1 fst-italic">Desde 1965 dedicados al arte de la Pastelería</p>
+      </div>
+    </div>
+    <!-- Carrousel 1 Tortas -->
+    <div class="second">
+      <div class="m-5 w-80">
+        <div class="row">
+          <div class="col-xl-3 col-md-12">
+            <p class="fs-4 fst-italic">Nuestras fina Pasteleria es la bienvenida a un viaje autentico de sabores, el placer prevalece y la frescura es el imperativo habitual en todas nustras experiencias.</p>
+          </div>
+          <div class="col-xl-8 col-md-12">
+            <div id="carouselTortas" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/chocolateC.jpg" class="d-block w-100" alt="cholate">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/pompadour-chilenaC.jpg" class="d-block w-100" alt="frutilla">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/manzanaC.jpg" class="d-block w-100" alt="manzana">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselTortas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselTortas" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <!-- Carrousel 2 Cupcakes -->
+    <div class="third">
+      <div class="m-5 w-80">
+        <div class="row">
+          <div class="col-xl-8 col-md-12">
+            <div id="carouselCupCakes" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/cupcakeXC.jpg" class="d-block w-100" alt="cholate">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/cupcakes-red-velvetB.jpg" class="d-block w-100" alt="frutilla">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/cupcakew.png" class="d-block w-100" alt="manzana">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselCupCakes" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselCupCakes" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12">
+            <p class="fs-4 fst-italic">Los cakes siguen siendo la referencia dentro de la pastelería seca, de cremas saborizadas y vivos colores, preferidas de caracter crujiente y corazon de distitas mermeladas o dulces.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ACA COMIENZA EL SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

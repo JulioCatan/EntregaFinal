@@ -1,0 +1,32 @@
+.first{
+	background: #e8d2d2;
+	color: #b92a2a;
+	text-align: center;
+}
+
+.second{
+	background: #c1bfbf70;
+	color: black;
+/*	text-align: center;*/
+}
+
+.third{
+	background: #bdeee7;
+	color: black;
+	text-align: center;
+}
+
+
+
+/*div [class|="col"]{
+	border: 1px solid #ffc107;
+}*/
+.myLogo {
+    background-image: url('../assets/bati_logo.png');
+    display: block;
+    width: 80px;
+    height: 23px;
+}
+.font{
+	color: black;
+}
