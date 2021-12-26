@@ -1,3 +1,18 @@
+.myLogo {
+    background-image: url('../assets/bati_logo.png');
+    display: block;
+    width: 80px;
+    height: 23px;
+}
+.font{
+	color: black;
+}
+
+.nav-item.selected{
+		border-bottom: 3px solid #000;
+		border-top: 3px solid #000;
+	}
+
 .first{
 	background: #e8d2d2;
 	color: #b92a2a;
@@ -15,3 +30,4 @@
 	color: black;
 	text-align: center;
 }
+

@@ -1,13 +1,64 @@
+
 poner SAS
-poner un footer
-poner fuentes
-borrar este archivo
-agregar submnenu de productos
-modificar la parte de contactos, hacerlo parecido al de Maru
-modificar la parte de take away, hacerlo parecido al de Maru
-agregar iconos de redes en el menú
-ver la pagina de agus y sacar ideas.
-agregar palabras a las imagenes
+
+
+modificar el link en cada pagina que apunte a estilos.css
+Menu:
+    agregar las redes sociales X
+    agregar subrayado o marca en cada pagina X
+    cambiar el logo por otro.
+    agregar submnenu de productos X
+    hacerlo movil
+    ver donde aplicar SAS - nessting, mixin, variables y operadores
+    efecto al comenzar la pagina en el menú
+    ver como hacer para agrandar las redes en el menú
+    links de las redes, hay que linkearlos a alguna pagina?
+
+Home:
+    hay que cambiar el texto de la foto principal.
+    agregar algún efecto a la foto.
+    Agregar mas texto, mejorar la letra y el color.
+    hacerlo movil
+    ver donde aplicar SAS - nessting, mixin, variables y operadores
+    cambiar el texto de Solapa "logo + Arte y Azucar - Home"
+    una de las tortas ene l carrousel 1 está mas alta
+    dos de las tortas en el carrousel 2 está mas alta.
+
+Productos:
+    Agregar las subpaginas con distintas opciones.
+    agregar palabras a las imagenes o efecto de ventana que gira con palabras.
+    en Productos hoy se ven todos los productos demasiado juntos
+    hacerlo movil
+    ver donde aplicar SAS - nessting, mixin, variables y operadores
+    cambiar el texto de Solapa "logo + Arte y Azucar - Productos"
+Contacto:
+    modificar la parte de contactos, hacerlo parecido al de Maru.
+    hacerlo movil
+    ver donde aplicar SAS - nessting, mixin, variables y operadores
+    cambiar el texto de Solapa "logo + Arte y Azucar - Contacto"
+Take Away 
+    Centrar las imagenes, agregar formulario para compra.
+    hacerlo movil
+    ver donde aplicar SAS - nessting, mixin, variables y operadores
+    cambiar el texto de Solapa "logo + Arte y Azucar - Take Away"
+Quienes somos:
+    Hay que cambiar fuentes y colocar colores a las letras, quizas tambien hacerlas un poco mas grandes.
+    hacerlo movil
+    ver donde aplicar SAS - nessting, mixin, variables y operadores
+    cambiar el texto de Solapa "logo + Arte y Azucar - Quienes Somos"
+fuentes:
+    Trabajar a parte en cada fuente en el menú y cada pagina y de cada color.
+Footer:
+    poner un footer
+SEO:
+    agregar los tags en cada pagina
+Icono flotante de whatsapp 
+
+antes de entregar:
+    borrar este archivo
+    ver la pagina de agus y sacar ideas.
+    borrar estilo.css
+
 
 -- -- -- -- DETALLE ENTREGA -- -- -- -- --
 movil y descktop
