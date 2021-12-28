@@ -1,19 +1,22 @@
 
-poner SAS
-
 
 modificar el link en cada pagina que apunte a estilos.css
 Menu:
-
-    hacerlo movil
-    ver donde aplicar SAS - nessting, mixin, variables y operadores
-    efecto al comenzar la pagina en el menú
-    ver como hacer para agrandar las redes en el menú
+        
+    aplicar nessting, mixin, variables y operadores.
+    quitar comandos que esten demas con el Inspeccionar.
     links de las redes, hay que linkearlos a alguna pagina?
-    cambiar el logo por otro.
+    pegar todo el menú al resto de las paginas html.
+ 
     agregar las redes sociales X
     agregar subrayado o marca en cada pagina X
     agregar submnenu de productos X
+    hacerlo movil X
+    ver donde aplicar SAS X
+    efecto al comenzar la pagina en el menú (prox)
+    ver como hacer para agrandar las redes en el menú (prox)
+    cambiar el logo por otro. (prox)
+    cambiar el menu par movile, icono en el centro, hamb a la izquierda, take away a la derecha (prox)
 
 Home:
     hay que cambiar el texto de la foto principal.
@@ -37,6 +40,7 @@ Contacto:
     hacerlo movil
     ver donde aplicar SAS - nessting, mixin, variables y operadores
     cambiar el texto de Solapa "logo + Arte y Azucar - Contacto"
+    agregar una "torta fija" y el desplazamiento de formulario por ensima de la torta.
 Take Away 
     Centrar las imagenes, agregar formulario para compra.
     hacerlo movil
