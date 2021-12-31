@@ -35,6 +35,18 @@
 	background: #e8d2d2;
 	color: #b92a2a;
 	text-align: center;
+	.borders{
+		border:1px solid rgb(146, 79, 79);
+		border-radius: 1.5rem;
+	}
+	.anima{
+		animation-name: aumenta;
+		animation-timing-function: ease-in-out;
+		animation-delay: 1s;
+		animation-duration: 10s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
 }
 
 .second{
