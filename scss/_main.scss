@@ -8,6 +8,7 @@
 	z-index: 1030;
 	.myLogo {
 		background-image: url('../assets/bati_logo.png');
+		background-repeat: no-repeat;
 		display: block;
 		width: 80px;
 		height: 23px;
@@ -31,10 +32,12 @@
 
 
 /* HOME PRINCIPAL */
+
 .first{
 	background: #e8d2d2;
 	color: #b92a2a;
 	text-align: center;
+	margin-top: 100px;
 	.borders{
 		border:1px solid rgb(146, 79, 79);
 		border-radius: 1.5rem;
@@ -64,15 +67,21 @@
 .posInicial{
 	
 }
-.footer{
-	/* position: fixed; */
-	background-color: #b7b3b3;
-	height: 5rem;
+
+.footerDos{
 	display: flex;
-
-	.autoFoot{
-		color: black;
+	flex-direction: row;
+	box-sizing: border-box;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	height: 20rem;
+	color:black;
+	background-color: #bbd7c3;
+	margin-top: 30px;
+	.conTenedor{
+		display: flex;
+		flex-direction: column;
+		margin-top: 25px;
+		margin-left: 15px;
 	}
-
-
 }
