@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:ital,wght@0,200;1,300&family=Pacifico&display=swap");
 @-webkit-keyframes aumenta {
   from {
     -webkit-transform: scale(1, 1);
@@ -8,7 +9,6 @@
             transform: scale(1.1, 1.1);
   }
 }
-
 @keyframes aumenta {
   from {
     -webkit-transform: scale(1, 1);
@@ -35,7 +35,7 @@
   background-repeat: no-repeat;
   display: block;
   width: 80px;
-  height: 23px;
+  height: 35px;
 }
 
 .contenedorMenu .navMenu {
@@ -117,5 +117,27 @@
           flex-direction: column;
   margin-top: 25px;
   margin-left: 15px;
+}
+
+.footerDos .conTenedor .marca {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  color: #9B2A94;
+  text-transform: none;
+}
+
+.footerDos .conTenedor .leyenda {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #696969;
+}
+
+.footerDos .conTenedor .leyenda .titulo {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.footerDos .conTenedor .leyenda .auxTexto {
+  font-size: 14px;
 }
 /*# sourceMappingURL=estilos.css.map */

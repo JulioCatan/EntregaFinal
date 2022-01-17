@@ -83,5 +83,23 @@
 		flex-direction: column;
 		margin-top: 25px;
 		margin-left: 15px;
+		.marca{
+			font-family: 'Pacifico', cursive;
+			font-weight: 400;
+			color: #9B2A94;
+			text-transform: none;
+		}
+		.leyenda{
+			font-family: 'Lato', sans-serif;
+			font-weight: 400;
+			color: #696969;
+			.titulo{
+				font-size: 16px;
+				text-transform: uppercase;
+			}
+			.auxTexto{
+				font-size: 14px;
+			}
+		}
 	}
 }
