@@ -89,55 +89,39 @@
   text-align: center;
 }
 
-.footerDos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-top: 10px;
-  margin-bottom: 10px;
-  height: 20rem;
+.contieneFooter {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.contieneFooter .footerDos {
   color: black;
   background-color: #bbd7c3;
-  margin-top: 30px;
 }
 
-.footerDos .conTenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 25px;
-  margin-left: 15px;
-}
-
-.footerDos .conTenedor .marca {
+.contieneFooter .footerDos .marca {
   font-family: 'Pacifico', cursive;
   font-weight: 400;
   color: #9B2A94;
   text-transform: none;
 }
 
-.footerDos .conTenedor .leyenda {
+.contieneFooter .footerDos .leyenda {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #696969;
 }
 
-.footerDos .conTenedor .leyenda .titulo {
+.contieneFooter .footerDos .leyenda .titulo {
   font-size: 16px;
   text-transform: uppercase;
 }
 
-.footerDos .conTenedor .leyenda .auxTexto {
+.contieneFooter .footerDos .leyenda .auxTexto {
   font-size: 14px;
+}
+
+.contieneFooter .footerDos .centro {
+  margin: 5%;
 }
 /*# sourceMappingURL=estilos.css.map */

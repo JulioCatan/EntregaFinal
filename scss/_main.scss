@@ -68,21 +68,12 @@
 	
 }
 
-.footerDos{
-	display: flex;
-	flex-direction: row;
-	box-sizing: border-box;
-	padding-top: 10px;
-	margin-bottom: 10px;
-	height: 20rem;
-	color:black;
-	background-color: #bbd7c3;
-	margin-top: 30px;
-	.conTenedor{
-		display: flex;
-		flex-direction: column;
-		margin-top: 25px;
-		margin-left: 15px;
+.contieneFooter{
+	width: 90%;
+	margin-left: 5%;
+	.footerDos{
+		color:black;
+		background-color: #bbd7c3;
 		.marca{
 			font-family: 'Pacifico', cursive;
 			font-weight: 400;
@@ -100,6 +91,9 @@
 			.auxTexto{
 				font-size: 14px;
 			}
+		}
+		.centro{
+			margin: 5%;
 		}
 	}
 }
