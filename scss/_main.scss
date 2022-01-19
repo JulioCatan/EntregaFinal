@@ -38,6 +38,8 @@
 	color:  map-get($colores, textoPrincipal);
 	text-align: center;
 	margin-top: 100px;
+	font-family: 'Roboto Condensed',map-get($fontF, texto);
+	font-weight: map-get($fontW, normal);
 	.borders{
 		border:1px solid rgb(146, 79, 79);
 		border-radius: 1.5rem;

@@ -1,1 +1,121 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:ital,wght@0,200;1,300&family=Pacifico&display=swap");@keyframes aumenta{from{transform:scale(1, 1)}to{transform:scale(1.1, 1.1)}}.contenedorMenu{line-height:2;position:fixed;top:0;right:0;left:0;z-index:1030}.contenedorMenu .myLogo{background-image:url("../assets/bati_logo.png");background-repeat:no-repeat;display:block;width:80px;height:35px}.contenedorMenu .navMenu{font-size:1.25rem;padding:.5rem;margin-bottom:.5rem}.contenedorMenu .nav-item.selected{border-bottom:3px solid #000;border-top:3px solid #000}.first{background:#e8d2d2;color:#b92a2a;text-align:center;margin-top:100px}.first .borders{border:1px solid #924f4f;border-radius:1.5rem}.second{background:rgba(193,191,191,0.439216);color:#6a2b2b}.third{background:#bdeee7;color:#6a2b2b;text-align:center}.contieneFooter{width:90%;margin-left:5%}.contieneFooter .footerDos{color:black;background-color:#bbd7c3}.contieneFooter .footerDos .marca{font-family:"Pacifico",cursive;font-weight:400;color:#9B2A94;text-transform:none}.contieneFooter .footerDos .leyenda{font-family:"Lato",sans-serif;font-weight:400;color:dimgray}.contieneFooter .footerDos .leyenda .titulo{font-size:16px;text-transform:uppercase}.contieneFooter .footerDos .leyenda .auxTexto{font-size:14px}.contieneFooter .footerDos .centro{margin:5%}
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:ital,wght@0,200;1,300&family=Pacifico&family=Roboto+Condensed&display=swap");
+@-webkit-keyframes aumenta {
+  from {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+}
+@keyframes aumenta {
+  from {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+}
+
+/* MENU */
+.contenedorMenu {
+  line-height: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.contenedorMenu .myLogo {
+  background-image: url("../assets/bati_logo.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 80px;
+  height: 35px;
+}
+
+.contenedorMenu .navMenu {
+  font-size: 1.25rem;
+  padding: .5rem;
+  margin-bottom: .5rem;
+}
+
+.contenedorMenu .nav-item.selected {
+  border-bottom: 3px solid #000;
+  border-top: 3px solid #000;
+}
+
+/* HOME PRINCIPAL */
+.first {
+  background: #e8d2d2;
+  color: #b92a2a;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  /*	.anima{
+		animation-name: aumenta;
+		animation-timing-function: ease-in-out;
+		animation-delay: 1s;
+		animation-duration: 10s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}*/
+}
+
+.first .borders {
+  border: 1px solid #924f4f;
+  border-radius: 1.5rem;
+}
+
+.second {
+  background: #c1bfbf70;
+  color: #6a2b2b;
+}
+
+.third {
+  background: #bdeee7;
+  color: #6a2b2b;
+  text-align: center;
+}
+
+.contieneFooter {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.contieneFooter .footerDos {
+  color: black;
+  background-color: #bbd7c3;
+}
+
+.contieneFooter .footerDos .marca {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: #9B2A94;
+  text-transform: none;
+}
+
+.contieneFooter .footerDos .leyenda {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #696969;
+}
+
+.contieneFooter .footerDos .leyenda .titulo {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.contieneFooter .footerDos .leyenda .auxTexto {
+  font-size: 14px;
+}
+
+.contieneFooter .footerDos .centro {
+  margin: 5%;
+}
+/*# sourceMappingURL=estilos.css.map */
