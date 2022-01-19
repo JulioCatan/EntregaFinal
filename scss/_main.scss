@@ -34,33 +34,32 @@
 /* HOME PRINCIPAL */
 
 .first{
-	background: #e8d2d2;
-	color: #b92a2a;
+	background: map-get($colores, fondoPrincipal);
+	color:  map-get($colores, textoPrincipal);
 	text-align: center;
 	margin-top: 100px;
 	.borders{
 		border:1px solid rgb(146, 79, 79);
 		border-radius: 1.5rem;
 	}
-	.anima{
+/*	.anima{
 		animation-name: aumenta;
 		animation-timing-function: ease-in-out;
 		animation-delay: 1s;
 		animation-duration: 10s;
 		animation-iteration-count: 1;
 		animation-fill-mode: forwards;
-	}
+	}*/
 }
 
 .second{
-	background: #c1bfbf70;
-	color: black;
-/*	text-align: center;*/
+	background: map-get($colores, fondoCarrouselP);
+	color: map-get($colores, textoCarrouselP);
 }
 
 .third{
-	background: #bdeee7;
-	color: black;
+	background: map-get($colores, fondoCarrouselS);
+	color: map-get($colores, textoCarrouselS);
 	text-align: center;
 }
 
@@ -73,17 +72,17 @@
 	margin-left: 5%;
 	.footerDos{
 		color:black;
-		background-color: #bbd7c3;
+		background-color: map-get($colores, fondoFooter);
 		.marca{
-			font-family: 'Pacifico', cursive;
-			font-weight: 400;
-			color: #9B2A94;
+			font-family: 'Pacifico',map-get($fontF, fantasy);
+			font-weight: map-get($fontW, normal);
+			color: map-get($colores, cursiva);
 			text-transform: none;
 		}
 		.leyenda{
-			font-family: 'Lato', sans-serif;
-			font-weight: 400;
-			color: #696969;
+			font-family: 'Lato',map-get($fontF, texto);
+			font-weight: map-get($fontW, normal);
+			color: map-get($colores, textoPlano) ;
 			.titulo{
 				font-size: 16px;
 				text-transform: uppercase;
