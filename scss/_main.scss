@@ -40,6 +40,10 @@
 	margin-top: 100px;
 	font-family: 'Roboto Condensed',map-get($fontF, texto);
 	font-weight: map-get($fontW, normal);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	// margin-left: 5%;
 	.borders{
 		border:1px solid rgb(146, 79, 79);
 		border-radius: 1.5rem;
@@ -57,21 +61,33 @@
 .second{
 	background: map-get($colores, fondoCarrouselP);
 	color: map-get($colores, textoCarrouselP);
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+	text-align: center;
+	@media all and(min-width:768px) {
+		display: flex;
+		flex-direction: row-reverse;
+	}
 }
 
 .third{
 	background: map-get($colores, fondoCarrouselS);
 	color: map-get($colores, textoCarrouselS);
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
 	text-align: center;
 }
 
-.posInicial{
+// .posInicial{
 	
-}
+// }
 
 .contieneFooter{
 	width: 90%;
 	margin-left: 5%;
+	margin-top: 5%;
 	.footerDos{
 		color:black;
 		background-color: map-get($colores, fondoFooter);

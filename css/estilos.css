@@ -57,6 +57,9 @@
   margin-top: 100px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
   /*	.anima{
 		animation-name: aumenta;
 		animation-timing-function: ease-in-out;
@@ -75,17 +78,37 @@
 .second {
   background: #c1bfbf70;
   color: #6a2b2b;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
 }
 
 .third {
   background: #bdeee7;
   color: #6a2b2b;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
   text-align: center;
 }
 
 .contieneFooter {
   width: 90%;
   margin-left: 5%;
+  margin-top: 5%;
 }
 
 .contieneFooter .footerDos {
