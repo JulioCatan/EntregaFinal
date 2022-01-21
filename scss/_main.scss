@@ -6,13 +6,20 @@
 	right: 0;
 	left: 0;
 	z-index: 1030;
-	.myLogo {
-		background-image: url('../assets/bati_logo.png');
-		background-repeat: no-repeat;
-		display: block;
-		width: 80px;
-		height: 35px;
-	}
+	// .myLogo {
+	// 	background-image: url('../assets/bati_logo.png');
+	// 	background-repeat: no-repeat;
+	// 	display: block;
+	// 	width: 80px;
+	// 	height: 35px;
+	//}
+	.marca {
+		font-family: 'Pacifico',map-get($fontF, fantasy);
+		font-weight: map-get($fontW, normal);
+		color: map-get($colores, cursiva);
+		text-transform: none;
+		font-size: 2rem;
+	  }
 	.navMenu{
 		font-size: 1.25rem;
 		padding: .5rem;
@@ -21,6 +28,18 @@
 	.nav-item.selected{
 		border-bottom: 3px solid #000;
 		border-top: 3px solid #000;
+	}
+}
+
+.contenedor{
+	margin-top:100px;
+	padding-top:30px;
+	width: 90%;
+	margin-left: 5%;
+	.tituloProducto{
+	}
+	.contenedorProducto{
+		margin:  20px 0;
 	}
 }
 
@@ -42,8 +61,8 @@
 	font-weight: map-get($fontW, normal);
 	padding-top: 20px;
 	padding-bottom: 20px;
-	width: 100%;
-	// margin-left: 5%;
+	width: 90%;
+	margin-left: 5%;
 	.borders{
 		border:1px solid rgb(146, 79, 79);
 		border-radius: 1.5rem;
