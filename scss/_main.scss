@@ -6,13 +6,6 @@
 	right: 0;
 	left: 0;
 	z-index: 1030;
-	// .myLogo {
-	// 	background-image: url('../assets/bati_logo.png');
-	// 	background-repeat: no-repeat;
-	// 	display: block;
-	// 	width: 80px;
-	// 	height: 35px;
-	//}
 	.marca {
 		font-family: 'Pacifico',map-get($fontF, fantasy);
 		font-weight: map-get($fontW, normal);
@@ -31,22 +24,6 @@
 	}
 }
 
-.contenedor{
-	margin-top:100px;
-	padding-top:30px;
-	width: 90%;
-	margin-left: 5%;
-	.tituloProducto{
-	}
-	.contenedorProducto{
-		margin:  20px 0;
-	}
-}
-
-
-// .font{
-// 	color: black;
-// }
 
 
 
@@ -67,14 +44,6 @@
 		border:1px solid rgb(146, 79, 79);
 		border-radius: 1.5rem;
 	}
-/*	.anima{
-		animation-name: aumenta;
-		animation-timing-function: ease-in-out;
-		animation-delay: 1s;
-		animation-duration: 10s;
-		animation-iteration-count: 1;
-		animation-fill-mode: forwards;
-	}*/
 }
 
 .second{
@@ -99,9 +68,47 @@
 	text-align: center;
 }
 
-// .posInicial{
-	
-// }
+/* PRODUCTOS */
+.contenedor{
+	margin-top:100px;
+	padding-top:30px;
+	width: 95%;
+	margin-left: 2%;
+	.tituloProducto{
+	}
+	.contenedorProducto{
+		margin:  20px 0;
+		.prodTitulo{
+			font-family: "Montserrat", map-get($fontF, texto);
+			font-weight: map-get($fontW, medium);	
+			font-size: 1.1em;
+			line-height: 1.7em;		
+			color: map-get($colores, tituloProducto);
+		}
+		.prodSubTitulo{
+			font-family: "Montserrat", map-get($fontF, texto);
+			font-weight: 300;
+			font-size: 1em;
+			line-height: 1.6;
+			color: map-get($colores, textoProducto);
+		}
+		.escala:hover{
+			transform: scale(1.1);
+		}
+		// .anima{
+		// animation-name: aumenta;
+		// animation-timing-function: ease-in-out;
+		// animation-delay: 1s;
+		// animation-duration: 10s;
+		// animation-iteration-count: 1;
+		// animation-fill-mode: forwards;
+		// }
+	}
+}
+
+
+
+/* FOOTER  */
 
 .contieneFooter{
 	width: 90%;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:ital,wght@0,200;1,300&family=Pacifico&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:ital,wght@0,200;0,300;0,500;1,300&family=Pacifico&family=Roboto+Condensed&display=swap");
 @-webkit-keyframes aumenta {
   from {
     -webkit-transform: scale(1, 1);
@@ -49,17 +49,6 @@
   border-top: 3px solid #000;
 }
 
-.contenedor {
-  margin-top: 100px;
-  padding-top: 30px;
-  width: 90%;
-  margin-left: 5%;
-}
-
-.contenedor .contenedorProducto {
-  margin: 20px 0;
-}
-
 /* HOME PRINCIPAL */
 .first {
   background: #e8d2d2;
@@ -72,14 +61,6 @@
   padding-bottom: 20px;
   width: 90%;
   margin-left: 5%;
-  /*	.anima{
-		animation-name: aumenta;
-		animation-timing-function: ease-in-out;
-		animation-delay: 1s;
-		animation-duration: 10s;
-		animation-iteration-count: 1;
-		animation-fill-mode: forwards;
-	}*/
 }
 
 .first .borders {
@@ -117,6 +98,40 @@
   text-align: center;
 }
 
+/* PRODUCTOS */
+.contenedor {
+  margin-top: 100px;
+  padding-top: 30px;
+  width: 95%;
+  margin-left: 2%;
+}
+
+.contenedor .contenedorProducto {
+  margin: 20px 0;
+}
+
+.contenedor .contenedorProducto .prodTitulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 1.7em;
+  color: #5d5d5d;
+}
+
+.contenedor .contenedorProducto .prodSubTitulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.6;
+  color: #808080;
+}
+
+.contenedor .contenedorProducto .escala:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/* FOOTER  */
 .contieneFooter {
   width: 90%;
   margin-left: 5%;
