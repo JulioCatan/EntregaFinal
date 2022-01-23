@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:ital,wght@0,200;0,300;0,500;1,300&family=Pacifico&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Mea+Culpa&family=Montserrat:ital,wght@0,200;0,300;0,500;1,300&family=Pacifico&family=Roboto+Condensed&display=swap");
 @-webkit-keyframes aumenta {
   from {
     -webkit-transform: scale(1, 1);
@@ -28,14 +28,15 @@
   right: 0;
   left: 0;
   z-index: 1030;
+  background-color: #f0b6e2;
 }
 
 .contenedorMenu .marca {
-  font-family: "Pacifico", cursive;
+  font-family: "Mea Culpa", cursive;
   font-weight: 400;
-  color: #9B2A94;
+  color: #972C2C;
   text-transform: none;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .contenedorMenu .navMenu {
@@ -45,7 +46,7 @@
 }
 
 .contenedorMenu .navMenu .especial {
-  color: #9B2A94;
+  color: #972C2C;
 }
 
 .contenedorMenu .nav-item.selected {
@@ -56,9 +57,9 @@
 /* HOME PRINCIPAL */
 .first {
   background: #e8d2d2;
-  color: #b92a2a;
+  color: #423c3c;
   text-align: center;
-  margin-top: 102px;
+  margin-top: 123px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
   padding-top: 20px;
@@ -104,7 +105,7 @@
 
 /* PRODUCTOS */
 .contenedor {
-  margin-top: 102px;
+  margin-top: 123px;
   padding-top: 30px;
   width: 95%;
   margin-left: 2%;
@@ -160,7 +161,7 @@
 
 /* TAKE AWAY */
 .conteiner {
-  margin-top: 102px;
+  margin-top: 123px;
   padding-top: 30px;
   width: 95%;
   margin-left: 2%;
@@ -192,7 +193,7 @@
 
 .conteiner .pasoApaso {
   background: #e8d2d2;
-  color: #b92a2a;
+  color: #423c3c;
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
@@ -239,6 +240,28 @@
   margin-right: 0;
 }
 
+.conteiner .marcaQS {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  color: #972C2C;
+  text-transform: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.conteiner .parrafoQS {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.conteiner .parrafoQS .descripcionQS {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #696969;
+  font-size: 20 px;
+}
+
 /* FOOTER  */
 .contieneFooter {
   width: 90%;
@@ -252,10 +275,11 @@
 }
 
 .contieneFooter .footerDos .marca {
-  font-family: "Pacifico", cursive;
+  font-family: "Mea Culpa", cursive;
   font-weight: 400;
-  color: #9B2A94;
+  color: #972C2C;
   text-transform: none;
+  font-size: 2rem;
 }
 
 .contieneFooter .footerDos .leyenda {

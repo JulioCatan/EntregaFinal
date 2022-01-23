@@ -6,12 +6,14 @@
 	right: 0;
 	left: 0;
 	z-index: 1030;
+	background-color: #f0b6e2;
+
 	.marca {
-		font-family: 'Pacifico',map-get($fontF, fantasy);
+		font-family: 'Mea Culpa',map-get($fontF, fantasy);
 		font-weight: map-get($fontW, normal);
 		color: map-get($colores, cursiva);
 		text-transform: none;
-		font-size: 2rem;
+		font-size: 3rem;
 	  }
 	.navMenu{
 		font-size: 1.25rem;
@@ -33,7 +35,7 @@
 	background: map-get($colores, fondoPrincipal);
 	color:  map-get($colores, textoPrincipal);
 	text-align: center;
-	margin-top: 102px;
+	margin-top: 123px;
 	font-family: 'Roboto Condensed',map-get($fontF, texto);
 	font-weight: map-get($fontW, normal);
 	padding-top: 20px;
@@ -70,7 +72,7 @@
 
 /* PRODUCTOS */
 .contenedor{
-	margin-top:102px;
+	margin-top:123px;
 	padding-top:30px;
 	width: 95%;
 	margin-left: 2%;
@@ -88,7 +90,6 @@
 			animation-iteration-count: 1;
 			animation-fill-mode: forwards;
 		}
-
 	}
 	.contenedorProducto{
 		margin:  20px 0;
@@ -114,7 +115,7 @@
 
 /* TAKE AWAY */
 .conteiner{
-	margin-top:102px;
+	margin-top:123px;
 	padding-top:30px;
 	width: 95%;
 	margin-left: 2%;
@@ -174,7 +175,27 @@
 		}
 
 	}
+	.marcaQS {
+		font-family: 'Mea Culpa',map-get($fontF, fantasy);
+		font-weight: map-get($fontW, normal);
+		color: map-get($colores, cursiva);
+		text-transform: none;
+		font-size: 2rem;
+		text-align: center;
+	  }
+	.parrafoQS{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 2%;	
+		.descripcionQS{
+			font-family: 'Lato',map-get($fontF, texto);
+			font-weight: map-get($fontW, normal);
+			color: map-get($colores, textoPlano) ;
+			font-size: 20 px;
+		}
+	}
 }
+
 
 /* FOOTER  */
 
@@ -186,10 +207,11 @@
 		color:black;
 		background-color: map-get($colores, fondoFooter);
 		.marca{
-			font-family: 'Pacifico',map-get($fontF, fantasy);
+			font-family: 'Mea Culpa',map-get($fontF, fantasy);
 			font-weight: map-get($fontW, normal);
 			color: map-get($colores, cursiva);
 			text-transform: none;
+			font-size: 2rem;
 		}
 		.leyenda{
 			font-family: 'Lato',map-get($fontF, texto);
