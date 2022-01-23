@@ -33,7 +33,7 @@
 	background: map-get($colores, fondoPrincipal);
 	color:  map-get($colores, textoPrincipal);
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 102px;
 	font-family: 'Roboto Condensed',map-get($fontF, texto);
 	font-weight: map-get($fontW, normal);
 	padding-top: 20px;
@@ -70,7 +70,7 @@
 
 /* PRODUCTOS */
 .contenedor{
-	margin-top:100px;
+	margin-top:102px;
 	padding-top:30px;
 	width: 95%;
 	margin-left: 2%;
@@ -114,7 +114,7 @@
 
 /* TAKE AWAY */
 .conteiner{
-	margin-top:100px;
+	margin-top:102px;
 	padding-top:30px;
 	width: 95%;
 	margin-left: 2%;
@@ -140,7 +140,42 @@
 		text-align: center;
 		font-family: 'Roboto Condensed',map-get($fontF, texto);
 		font-weight: map-get($fontW, normal);
-	}	
+	}
+	.formulario{
+		margin: 3% 10%;
+		padding: 10%;
+		border: 3px solid map-get($colores,bordeformulario);
+		.alineacionVertical{
+			display: flex;
+			flex-direction: column;
+			width: 50%;
+			float: left;
+			padding: 0.60rem;
+			margin-bottom: 2%;
+			.tituloForm{
+				font-size: 16px;
+				text-transform: uppercase;
+				font-family: 'Lato',map-get($fontF, texto);
+				font-weight: map-get($fontW, normal);
+				color: map-get($colores, textoPlano) ;
+			}
+			.inputContacto{
+				vertical-align: middle;
+				border-radius: 10px;
+				padding: 15px 40px;
+				overflow: visible;
+			}
+			.ancho{
+				width: 30%;
+				background-color: #e3af10;
+				border-color: #e3af10;
+				float: right;
+				margin-right:0;
+			}
+
+		}
+
+	}
 }
 
 /* FOOTER  */
