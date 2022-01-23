@@ -200,7 +200,7 @@
 
 .conteiner .formulario {
   margin: 3% 10%;
-  padding: 10%;
+  padding: 3%;
   border: 3px solid #d3bcb3;
 }
 
@@ -212,8 +212,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 50%;
-  float: left;
   padding: 0.60rem;
   margin-bottom: 2%;
 }
