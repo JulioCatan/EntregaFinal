@@ -17,15 +17,15 @@
 		font-size: 1.25rem;
 		padding: .5rem;
 		margin-bottom: .5rem;
+		.especial{
+			color: map-get($colores, cursiva);
+		}
 	}
 	.nav-item.selected{
 		border-bottom: 3px solid #000;
 		border-top: 3px solid #000;
 	}
 }
-
-
-
 
 /* HOME PRINCIPAL */
 
@@ -75,6 +75,20 @@
 	width: 95%;
 	margin-left: 2%;
 	.tituloProducto{
+		font-family: "Montserrat", map-get($fontF, texto);
+		font-weight: map-get($fontW, medium);	
+		font-size: 1.1em;
+		line-height: 1.7em;		
+		color: map-get($colores, negro);
+		.anima{
+			animation-name: aumenta;
+			animation-timing-function: ease-in-out;
+			animation-delay: 1s;
+			animation-duration: 10s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+
 	}
 	.contenedorProducto{
 		margin:  20px 0;
@@ -95,18 +109,39 @@
 		.escala:hover{
 			transform: scale(1.1);
 		}
-		// .anima{
-		// animation-name: aumenta;
-		// animation-timing-function: ease-in-out;
-		// animation-delay: 1s;
-		// animation-duration: 10s;
-		// animation-iteration-count: 1;
-		// animation-fill-mode: forwards;
-		// }
 	}
 }
 
-
+/* TAKE AWAY */
+.conteiner{
+	margin-top:100px;
+	padding-top:30px;
+	width: 95%;
+	margin-left: 2%;
+	.tituloTA{
+		font-family: "Montserrat", map-get($fontF, texto);
+		font-weight: map-get($fontW, medium);	
+		font-size: 2em;
+		line-height: 1.7em;		
+		color: map-get($colores, textoPlano);
+		text-align: center;
+		.anima{
+			animation-name: aumenta;
+			animation-timing-function: ease-in-out;
+			animation-delay: 1s;
+			animation-duration: 10s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+	}
+	.pasoApaso{
+		background: map-get($colores, fondoPrincipal);
+		color:  map-get($colores, textoPrincipal);
+		text-align: center;
+		font-family: 'Roboto Condensed',map-get($fontF, texto);
+		font-weight: map-get($fontW, normal);
+	}	
+}
 
 /* FOOTER  */
 
